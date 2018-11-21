@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--自定义内容1：套件名称-->
+<suite name="接口自动化-模块汇总" verbose="1" preserve-order="true">
+    <suite-files>
+        <!--自定义内容2：要汇总的业务模块配置文件-->
+        <!--    <suite-file path="api/User-TestSuite.xml"/>
+            <suite-file path="api/Order-TestSuite.xml"/>-->
+        <!--用户模块-->
+        <suite-file path="api/cstusercontroller/cstusercontroller-TestSuite.xml"/>
+    </suite-files>
+</suite>
